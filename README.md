@@ -12,7 +12,22 @@ This is a simple Telegram bot that allows users to add products with their desir
 
     Navigate to the project directory:
     ```bash
-    cd PriceChecker
+    cd telegram_price_checker_bot
+    ```
+    
+    Create venv:
+    ```bash
+    python -m venv venv
+    ```
+
+    Activate venv:
+    ```bash
+    venv\Scripts\activate
+    ```
+
+    Install the required packages to venv:
+    ```bash
+    pip install -r requirements.txt
     ```
 ## Configuration
 Create a new bot on Telegram by talking to BotFather.
